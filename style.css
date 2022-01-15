@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-section {
+    background-color: #aaaaaa1c;
+    padding: 30px;
+}
+
+.content {
+    display: flex;
+}
+
+.top-Influencer {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.top-Influencer img {
+    width: 300px;
+    margin-left: 20%;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.button {
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+    margin-top: 15px;
+}
+
+.Popular-Collection {
+    margin-top: 50px;
+    display: grid;
+}
+
+.popular-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.blog {
+    background-color: #FFFFFF;
+    padding-left: 50px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.price {
+    margin-top: -10px;
+    margin-bottom: -10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.star-box i {
+    font-size: 10px;
+    margin-top: 15px;
+    margin-bottom: -12px;
+    color: #FB8200;
+}
+
+.star-box {
+    font-size: 13px;
+}
+
+.see-more {
+    text-align: right;
+    color: #E02C6D;
+}
+
+.footer {
+    background-color: #0A0826;
+    /* height: 100px; */
+    padding: 2%;
+    color: white;
+    text-align: center;
+}
+
+.social-icon i {
+    margin-right: 10px;
+}
+
+
+/* media query */
+
+@media only screen and (max-width: 600px) {
+    .content {
+        flex-direction: column;
+    }
+    .top-Influencer img {
+        margin-left: -55px;
+        margin-top: 10px;
+    }
+    .top-Influencer h1 {
+        font-size: 18px;
+    }
+    .popular-heading {
+        text-align: left;
+    }
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog {
+        padding-left: 5px;
+        margin-left: -15px;
+        /* padding-top: 15px;
+        padding-bottom: 20px; */
+    }
+    .blog img {
+        width: 250px;
+    }
+    .footer {
+        width: 100%;
+    }
+    .footer h2 {
+        margin-left: -125px;
+    }
+    .copy-right {
+        margin-left: -90px;
+    }
+    .see-more {
+        text-align: left;
+    }
+}
